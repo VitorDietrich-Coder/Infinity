@@ -1,0 +1,67 @@
+body{
+background-color: black;
+margin: 0%;
+}
+.home-1{
+    border: none;
+    margin: 0;
+}
+img.escrita{
+    position: relative;
+    top: 0%;
+    left: 10%;
+    width: 10%;
+
+}
+img.carrinho{
+    margin-bottom: 0;
+    position: absolute;
+    top: 32% !important;
+    left: 93%;
+    width: 4%;
+    bottom: 2%;
+}
+li.superior{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 2% 0% 3% 0%;
+    margin: 0% 0% 0% 0%;
+    box-shadow: 0em 0.2em rgb(97, 97, 97);
+    position: relative;
+}
+input.pesquisa{
+    border: 1px solid white;    
+    border: none;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    box-shadow: 0.1em 0em 1em 0.2em  rgb(37, 37, 37); 
+    
+}
+div.conteudo{
+    border:  solid 1px white;
+    background-color: white;
+    padding: 0% 0% 60% 0%;
+}
+li.rodapé{
+    box-shadow: 0.2em 0em 0em 0.2em  rgb(97, 97, 97); ;
+    background-color: rgb(54, 54, 54);
+    padding: 6% 0% 0% 0%;
+    margin: 0;
+    width: 100%;
+    bottom: 0%;
+    position: relative;
+}
+
+
+
+
+
