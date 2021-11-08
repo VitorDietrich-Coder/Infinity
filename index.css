@@ -149,6 +149,7 @@ span.button-4:hover{
 	border: 4px solid black;
     background-color: black;
     justify-content: left;
+    list-style-type: none;
 
 }
 .stretch {
@@ -182,7 +183,7 @@ span.button-4:hover{
     left: 40px;
     right: 0px;
     background-color: rgb(14, 14, 14);
-
+    list-style-type: none;
 }
 
 .column1 {
@@ -194,19 +195,20 @@ span.button-4:hover{
 	flex: 1;
 	margin: 10px 10px;
 	padding: 0px;
-	background: rgb(54, 54, 54);
+	background: white;
 	text-align: center;
 	font-size: 1.5em;
     border-radius: 4px;
     transition: 0.2s;
     border: 0px;
+    list-style-type: none;
 }
 .item1:hover{
     box-shadow: 0em 0em 1em 0.1em  rgb(20, 20, 20);
 
 }
 .item1:first-child {
-	padding-top: 20px;
+	padding-top: 0px;
 }
 .alinhamento-central {
 	height: 400px;
@@ -216,7 +218,7 @@ span.button-4:hover{
 
 .alinhamento-central .item1 {
 	flex: 0;
-	padding: 10 px;
+	padding: 10px;
 }
 
 a.dashboard{
@@ -238,8 +240,7 @@ a.produtos{
     height: 10%;
     border: none;
     right: 180px;
-    bottom: 12px;
-
+    bottom: 50px;
 
 }
 li.barra-cima{
@@ -253,11 +254,10 @@ li.barra-cima{
     list-style-type: none;
 }
 li.barra-produto{
+    width: 96%;
     height: 21px;
-    padding: 30px;
     background-color: white;
-    position: relative;
-    padding: 3% 2% 2% 2%;
+    padding: 2% 2% 3% 2%;
     list-style-type: none;
 
 }
@@ -268,7 +268,7 @@ div.conteudo2{
     height: 1200px;
     background-color: rgb(14, 14, 14);
     left: 290px;
-
+    list-style-type: none;
 }
 li.rodapé{
     width: 100%;
@@ -278,4 +278,9 @@ li.rodapé{
     height: 200px;
     list-style-type: none;
     box-shadow: 0.1em 0.8em 0.1em 1em rgb(97, 97, 97);
+}
+img.carvao{
+    width: 200px;
+
+
 }
