@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    }
+    .home-1{
+        border: none;
+        margin: 0;
+        background-color: black;
+    }
+    img.escrita{
+        position: relative;
+        top: 0%;
+        left: 5%;
+        width: 8%;
+        border-radius: 50%; 
+        box-shadow: 0.1em 0em 1em 0.2em  rgb(37, 37, 37); 
+        margin: 2% 0% 2% 0%;
+    }
+    img.carrinho{
+        margin-bottom: 0;
+        position: absolute;
+        top: 28% !important;
+        left: 92%;
+        width: 4%;
+        bottom: 2%;
+    }
+    a.cadastrar{
+        margin-bottom: 0;
+        position: absolute;
+        top: 31% !important;
+        left: 74.5%;
+        width: 10%;
+        bottom: 2%;
+        height: 3%;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    img.LOGIN{
+        border-radius: 60%;
+        box-shadow: 0.1em 0.1em 1em 0.1em  rgb(37, 37, 37); 
+        margin-bottom: 0;
+        position: absolute;
+        top: 24% !important;
+        left: 82%;
+        width: 5%;
+        bottom: 2%;
+    }
+    footer.superior{
+        background-color: rgb(54, 54, 54);
+        color: white;
+        padding: 0% 0% 0% 0%;
+        margin: 0% 0% 0% 0%;
+        width: 100%;
+        height: 31%;
+        box-shadow: 0em 0.2em rgb(97, 97, 97);
+        position: relative;
+    
+    }
+    input.pesquisa{
+        position: absolute;
+        border: 1px solid white;    
+        border: none;
+        background-color: black;
+        outline: none;
+        border: none;
+        border-radius: 8px 0px;
+        padding: 8px 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        width: 42%;
+        top: 30%;
+        left: 20%;
+        height: 10%;
+        box-shadow: 0.1em 0em 1em 0.2em  rgb(37, 37, 37);    
+      
+    }
+    
