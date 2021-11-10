@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="style/footer.css">
 
  <footer class="superior">
             <img class="escrita" src="src/Infinity.png"></img>
