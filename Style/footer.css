@@ -21,16 +21,41 @@ body{
     img.carrinho{
         margin-bottom: 0;
         position: absolute;
-        top: 28% !important;
-        left: 92%;
-        width: 4%;
+        top: 26% !important;
+        left: 90%;
+        width: 3.2%;
         bottom: 2%;
     }
     a.cadastrar{
         margin-bottom: 0;
         position: absolute;
-        top: 31% !important;
-        left: 74.5%;
+        top: 25% !important;
+        left: 75.5%;
+        width: 10%;
+        bottom: 2%;
+        height: 3%;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        
+    }
+    a.login{
+        margin-bottom: 0;
+        position: absolute;
+        top: 40.5% !important;
+        left: 75.8%;
+        width: 10%;
+        bottom: 2%;
+        height: 3%;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+    }
+    a.ou{
+        margin-bottom: 0;
+        position: absolute;
+        top: 32.5% !important;
+        left: 77.8%;
         width: 10%;
         bottom: 2%;
         height: 3%;
@@ -42,9 +67,9 @@ body{
         box-shadow: 0.1em 0.1em 1em 0.1em  rgb(37, 37, 37); 
         margin-bottom: 0;
         position: absolute;
-        top: 24% !important;
+        top: 22% !important;
         left: 82%;
-        width: 5%;
+        width: 4.5%;
         bottom: 2%;
     }
     footer.superior{
@@ -70,8 +95,8 @@ body{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: white;
         width: 42%;
-        top: 30%;
-        left: 20%;
+        top: 28%;
+        left: 18%;
         height: 10%;
         box-shadow: 0.1em 0em 1em 0.2em  rgb(37, 37, 37);    
       
