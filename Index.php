@@ -14,6 +14,8 @@
         <?php 
               include "footer.php";
         ?>     
-        
+         <?php
+            include "Rodape.php";
+            ?>
 </body>
 </html>

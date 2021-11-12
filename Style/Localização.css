@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+div.conteudo{
+    border: 1px solid white;
+    width: 99,5%;
+    height: 1080px;
+}
+div.map{
+
+    border: 1px solid white;
+    width: 80%;
+    height: 540px;
+    margin: 220px 100px 100px 150px;
+
+
+}

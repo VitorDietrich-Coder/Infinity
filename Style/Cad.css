@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    border: none;
+
+}
+
+div.content{
+    color:  white;
+    border: 1px solid white;
+    width: 99.9%;
+    height: 1080px;
+
+}
+div.conteudo2{
+    width: 50%;
+    height: 40px;
+    border: 1px solid white;
+
+
+}

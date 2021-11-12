@@ -10,11 +10,10 @@
             <input type="text" class="pesquisa" placeholder="Pesquisar..." ><i class="fa fa-search"></i>
             <input type="text" class="pesquisa" placeholder="Pesquisar..." >
             <section class="container flex">
-                <div class="item"></div>
-                <div class="item"><span type="button" class="button-2">PRODUTOS</span></div>
-                <div class="item"><span type="button" class="button-3">PROMOÇÕES</span></div>
-                <div class="item"><span type="button" class="button-3">SOBRE NÓS</span></div>
-                <div class="item"><a type="button" href="Localização.html" class="button-1">LOCALIZAÇÃO</a></div>
-                <div class="item"><a type="button" href="Promo.php" class="button-1">PROMOÇÕES</a></div>
+               <div class="item"><a type="button" href="index.php" class="button-1">HOME</a></div>
+                <div class="item"><a type="button" href="Produtos.php" class="button-2">PRODUTOS</a></div>
+                <div class="item"><a type="button" href="Sobre.php" class="button-3">SOBRE NÓS</a></div>
+                <div class="item"><a type="button" href="Localização.php" class="button-4">LOCALIZAÇÃO</a></div>
+                <div class="item"><a type="button" href="Promo.php" class="button-5">PROMOÇÕES</a></div>
             </section>
          </footer>

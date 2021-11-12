@@ -13,9 +13,8 @@
     <?php 
         include "footer.php";
     ?>
-<div class="conteudo">
-                <li class="barra-cima"> 
-                    <a class="dashboard">DASHBOARD</a>  </li>   
+    
+<div class="conteudo">   
                 <div class="conteudo2">
                     <li class="barra-produto"> 
                         <a class="produtos">PROMOÇÕES</a>  </li>   
@@ -39,8 +38,9 @@
                 </section>
                </div>
             </div>
-            <li class="rodapé">
-        </li>
+            <?php
+            include "Rodape.php";
+            ?>
     
 </body>
 </html>

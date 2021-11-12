@@ -8,10 +8,8 @@
 </head>
 <body>
     <?php
-    include "footer.php";
+        include "footer.php"
     ?>
-            <?php
-            include "Rodape.php";
-            ?>
+
 </body>
 </html>
