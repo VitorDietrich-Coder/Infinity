@@ -13,7 +13,6 @@
     <?php 
         include "footer.php";
     ?>
-    
 <div class="conteudo">   
                 <div class="conteudo2">
                     <li class="barra-produto"> 

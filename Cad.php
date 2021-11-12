@@ -13,13 +13,27 @@
     include "footer.php";
     ?>
         <div class="content">
-            <div class="conteudo2">
-                
+            <form class="conteudo2" type="submit">
+            <a class="TEXT">CADASTRE-SE</a>
+            <br>
+                <input type="text" class="EMP"></input>
+                <br>
+                <input type="text" class="CNPJ"></input>
+                <br>
+                <input type="text" class="EMAIL"></input>
+                <br>
+                <input type="text" class="TELEFONE"></input>
+                <br>
+                <input type="text" class="CEP"></input>
+                <br>
+                <input type="text" class="ESTADO"></input>
+                <br>
+                <input type="text" class="CIDADE"></input>
+                <br>
+                <input type="text" class="BAIRRO"></input>
+                <input type="number" class="NUMERO"></input>
 
-
-            </div>
-            <a>Meu nome</a>
-
+            </form>
         </div>
         <?php
             include "Rodape.php";

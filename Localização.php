@@ -18,10 +18,7 @@
         <label class="lat">Logintude:</label>
         <label clas="long">Latidude:</label>
         <div id="maps" class="map"></div>
-
-
     </div>
-
      <?php
         include "Rodape.php";
         ?>

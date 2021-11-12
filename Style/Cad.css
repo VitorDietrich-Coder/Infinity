@@ -7,14 +7,19 @@ body{
 div.content{
     color:  white;
     border: 1px solid white;
-    width: 99.9%;
+    width: 99.5%;
     height: 1080px;
 
 }
-div.conteudo2{
-    width: 50%;
-    height: 40px;
+form.conteudo2{
     border: 1px solid white;
-
-
+    width: 50%;
+    height: 800px;
+    margin: 220px 100px 100px 400px;
+    border-radius: 10px;
+}
+a.TEXT{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin:  0px 0px 0px  300px;
 }
