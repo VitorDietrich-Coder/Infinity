@@ -2,7 +2,7 @@
 	include("conexao.class.php");
 
 	$id = $_POST['id'];
-	$nome = $_POST['nome'];
+	$emp = $_POST['emp'];
 	$cnpj = $_POST['cnpj'];
 	$email = $_POST['email'];
 	$telefone = $_POST['telefone'];
@@ -10,15 +10,15 @@
     $estado = $_POST['estado'];
     $cidade = $_POST['cidade'];
     $bairro = $_POST['bairro'];
-    $numero = $_POST['numcasa'];
+    $numcasa = $_POST['numcasa'];
 	$senha = md5($_POST['senha']);
 	
-	$sql = "INSERT INTO cadastro (id, nome, cnpj, email, telefone, cep, estado, cidade, bairro, numcasa, senha) 
+	$sql = "INSERT INTO cadastro (id, emp, cnpj, email, telefone, cep, estado, cidade, bairro, numcasa, senha) 
 			VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 	$stm = conexao::prepare($sql);
 
 	$stm->bindValue(1, $id);
-	$stm->bindValue(2, $nome);
+	$stm->bindValue(2, $emp);
 	$stm->bindValue(3, $cnpj);
 	$stm->bindValue(4, $email);
 	$stm->bindValue(5, $telefone);

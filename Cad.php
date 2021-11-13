@@ -2,7 +2,7 @@
 session_start();
 
 $cx = mysqli_connect("localhost", "root", "");
-$db = mysqli_select_db($cx, "conexao");
+$db = mysqli_select_db($cx, "bdinfinity");
 ?>
 
 <!DOCTYPE html>
@@ -20,40 +20,40 @@ $db = mysqli_select_db($cx, "conexao");
     include "footer.php";
     ?>
         <div class="content">
-            <form method="POST" action="ConexaoBanco/controler.php" class="conteudo2" type="submit">
+            <form method="POST" action="ConexaoBanco/controler.php" class="conteudo2" >
             <h1 class="TEXT">CADASTRE-SE</h1>
             <br>
                 <h1 class="NOME-INPUT">NOME DA EMPRESA</h1> 
-                <input type="text" id="emp" class="EMP"></input>
+                <input type="text" id="emp" class="EMP" required>
                 <br>
                 <h1 class="NOME-INPUT">CNPJ</h1>  
-                <input type="text" id="cnpj" class="CNPJ"></input>
+                <input type="text" id="cnpj" class="CNPJ" required>
                 <br>
                 <h1 class="NOME-INPUT">E-MAIL</h1> 
-                <input type="text" id="email" class="EMAIL"></input>
+                <input type="text" id="email" class="EMAIL" required>
                 <br>
                 <h1 class="NOME-INPUT">TELEFONE</h1>
-                <input type="text" id="telefone" class="TELEFONE"></input>
+                <input type="text" id="telefone" class="TELEFONE" required>
                 <br>
                 <h1 class="NOME-INPUT">CEP</h1> 
-                <input type="text" id="cep" class="CEP"></input>
+                <input type="text" id="cep" class="CEP" required>
                 <br>
                 <h1 class="NOME-INPUT">ESTADO</h1> 
-                <input type="text" id="estado" class="ESTADO"></input>
+                <input type="text" id="estado" class="ESTADO" required>
                 <br>
                 <h1 class="NOME-INPUT">CIDADE</h1> 
-                <input type="text" id="cidade"class="CIDADE"></input>
+                <input type="text" id="cidade"class="CIDADE" required>
                 <br>
                 <h1 class="NOME-INPUT">BAIRRO</h1>
-                <input type="text" id="bairro" class="BAIRRO"></input>
+                <input type="text" id="bairro" class="BAIRRO" required>
                 <h1 class="NOME-INPUT">NÚMERO</h1>  
-                <input type="number" id="numcasa" class="NUMERO"></input>  
+                <input type="number" id="numcasa" class="NUMERO" required>
 
                 <h1 class="NOME-INPUT">SENHA</h1>  
-                <input type="password" id="senha" class="SENHA"></input>  
+                <input type="password" id="senha" class="SENHA" required>
 
                 <h1 class="NOME-INPUT">CONFIRMAR SENHA</h1>  
-                <input type="password" id="confsenha"class="CONFSENHA"></input> <br>
+                <input type="password" id="confsenha"class="CONFSENHA" required> <br>
 
                 <button type="submit" id="butao" class="boton">BUTOON</button>
                 

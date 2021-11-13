@@ -36,7 +36,7 @@ if($stm->rowCount()>0){
     header("refresh: 1.5; ../index.php?signin=success");
 
         $id = $value->id;
-        $nome = $value->nome;
+        $emp = $value->emp;
         $cnpj = $value->cnpj;
         $email = $value->email;
         $telefone = $value->telefone;
@@ -49,7 +49,7 @@ if($stm->rowCount()>0){
     
 
         $_SESSION['id'] = $id;
-        $_SESSION['nome'] = $nome;
+        $_SESSION['emp'] = $emp;
         $_SESSION['cnpj'] = $cnpj;
         $_SESSION['email'] = $email;
         $_SESSION['telefone'] = $telefone;
