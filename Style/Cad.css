@@ -19,7 +19,7 @@ form.conteudo2{
     padding: 0%;
     border: 1px solid white;
     width: 800px;
-    height: 800px;
+    height: 950px;
     border-radius: 10px;
 }
 h1.TEXT{
@@ -99,15 +99,27 @@ input.NUMERO{
     padding: 2px 2px 2px 0px;
     width: 520px;
 }
+input.SENHA{
+    border: none;
+    text-align: start;
+    margin: 10px 0px 0px 139px;
+    padding: 2px 2px 2px 0px;
+    width: 520px;
+}
+input.CONFSENHA{
+    border: none;
+    text-align: start;
+    margin: 10px 0px 0px 139px;
+    padding: 2px 2px 2px 0px;
+    width: 520px;
+}
 button.boton{
     width: 120px;
     height: 40px;
-    margin: 22px 0px 0px 339px;
+    margin: 25px 0px 0px 339px;
     border: none;
     background-color: goldenrod;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: 0.2s;
-
-
 }

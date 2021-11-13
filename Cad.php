@@ -40,7 +40,14 @@
                 <h1 class="NOME-INPUT">BAIRRO</h1>
                 <input type="text" class="BAIRRO"></input>
                 <h1 class="NOME-INPUT">NÚMERO</h1>  
-                <input type="number" class="NUMERO"></input> <br>
+                <input type="number" class="NUMERO"></input>  
+
+                <h1 class="NOME-INPUT">SENHA</h1>  
+                <input type="senha" class="SENHA"></input>  
+
+                <h1 class="NOME-INPUT">CONFIRMAR SENHA</h1>  
+                <input type="senha" class="CONFSENHA"></input> <br>
+
                 <button type="submit" id="butao" class="boton">BUTOON</button>
 </form>
         </div>
