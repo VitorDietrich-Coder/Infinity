@@ -13,6 +13,7 @@ $db = mysqli_select_db($cx, "bdinfinity");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style/footer.css">
     <link rel="stylesheet" href="Style/Cad.css">
+    <script type="text/javascript" href="valida.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -27,10 +28,10 @@ $db = mysqli_select_db($cx, "bdinfinity");
                 <input type="text" id="emp" class="EMP" required>
                 <br>
                 <h1 class="NOME-INPUT">CNPJ</h1>  
-                <input type="text" id="cnpj" class="CNPJ" required>
+                <input type="text" id="cnpj" class="CNPJ" onkeyup="FormataCnpj(this,event)" ng-model="cadastro.cnpj" placeholder="Digite seu CNPJ" required>
                 <br>
                 <h1 class="NOME-INPUT">E-MAIL</h1> 
-                <input type="text" id="email" class="EMAIL" required>
+                <input type="text" id="email" class="EMAIL" placeholder="exemplo@dominio.com" required>
                 <br>
                 <h1 class="NOME-INPUT">TELEFONE</h1>
                 <input type="text" id="telefone" class="TELEFONE" required>

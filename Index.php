@@ -1,21 +1,9 @@
 <?php
 session_start();
-error_reporting(0);
 
-if (!isset($_SESSION['nome'])) {
-    header("Location: index.php");
-    exit;
-  }
-  
-  else{
-    if (!isset($_SESSION['senha'])) {
-      header("Location: index.php");
-      exit;
-    }
-  }
-  ?>
-
-
+$cx = mysqli_connect("localhost", "root", "");
+$db = mysqli_select_db($cx, "bdinfinity");
+?>
 
 <!DOCTYPE html>
 <html lang="en">

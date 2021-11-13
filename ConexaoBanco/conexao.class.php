@@ -8,7 +8,7 @@ define('CHARSET', 'utf8');
 define('USER', 'root');  
 define('PASSWORD', '');  
 
-class conexao{
+class bdinfinity{
 
   private static $instance;
 
@@ -37,8 +37,6 @@ class conexao{
     }
     return self::$instance;
   }
-  
-
   public static function prepare($sql){
     return self::getInstance()->prepare($sql);
   }

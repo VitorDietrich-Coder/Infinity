@@ -1,7 +1,7 @@
 <?php
 	include("conexao.class.php");
 
-	$id = $_POST['id'];
+	$id = $_POST['ID'];
 	$emp = $_POST['emp'];
 	$cnpj = $_POST['cnpj'];
 	$email = $_POST['email'];
@@ -13,9 +13,9 @@
     $numcasa = $_POST['numcasa'];
 	$senha = md5($_POST['senha']);
 	
-	$sql = "INSERT INTO cadastro (id, emp, cnpj, email, telefone, cep, estado, cidade, bairro, numcasa, senha) 
+	$sql = "INSERT INTO cad (id, emp, cnpj, email, telefone, cep, estado, cidade, bairro, numcasa, senha) 
 			VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-	$stm = conexao::prepare($sql);
+	$stm = bdinfinity::prepare($sql);
 
 	$stm->bindValue(1, $id);
 	$stm->bindValue(2, $emp);
