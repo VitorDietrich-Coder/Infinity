@@ -1,7 +1,7 @@
 <?php
 	include("conexao.class.php");
 
-	$id = $_POST['ID'];
+	$id = $_POST['id'];
 	$emp = $_POST['emp'];
 	$cnpj = $_POST['cnpj'];
 	$email = $_POST['email'];

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 13-Nov-2021 às 14:00
+-- Tempo de geração: 13-Nov-2021 às 22:49
 -- Versão do servidor: 10.4.21-MariaDB
 -- versão do PHP: 7.3.31
 
@@ -24,32 +24,51 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `cadastro`
+-- Estrutura da tabela `cad`
 --
 
-CREATE TABLE `cadastro` (
+CREATE TABLE `cad` (
   `ID` int(11) NOT NULL,
-  `NOME` varchar(40) DEFAULT NULL,
-  `CNPJ` varchar(40) DEFAULT NULL,
-  `EMAIL` varchar(40) DEFAULT NULL,
-  `TELEFONE` varchar(30) DEFAULT NULL,
-  `CEP` varchar(11) DEFAULT NULL,
-  `ESTADO` varchar(20) DEFAULT NULL,
-  `CIDADE` varchar(20) DEFAULT NULL,
-  `BAIRRO` varchar(40) DEFAULT NULL,
-  `NUMCASA` int(11) DEFAULT NULL,
-  `SENHA` varchar(30) DEFAULT NULL
+  `emp` text CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
+  `cnpj` int(40) NOT NULL,
+  `email` varchar(40) NOT NULL,
+  `telefone` varchar(30) NOT NULL,
+  `cep` varchar(11) NOT NULL,
+  `estado` varchar(20) NOT NULL,
+  `cidade` text NOT NULL,
+  `BAIRRO` text CHARACTER SET latin1 NOT NULL,
+  `NUMCASA` int(11) NOT NULL,
+  `SENHA` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `cad`
+--
+
+INSERT INTO `cad` (`ID`, `emp`, `cnpj`, `email`, `telefone`, `cep`, `estado`, `cidade`, `BAIRRO`, `NUMCASA`, `SENHA`) VALUES
+(1, '2', 2, '2', '2', '2', '2', '2', '2', 2, '2'),
+(6, '', 0, '', '', '', '', '', '', 0, ''),
+(7, '', 0, '', '', '', '', '', '', 0, '');
 
 --
 -- Índices para tabelas despejadas
 --
 
 --
--- Índices para tabela `cadastro`
+-- Índices para tabela `cad`
 --
-ALTER TABLE `cadastro`
+ALTER TABLE `cad`
   ADD PRIMARY KEY (`ID`);
+
+--
+-- AUTO_INCREMENT de tabelas despejadas
+--
+
+--
+-- AUTO_INCREMENT de tabela `cad`
+--
+ALTER TABLE `cad`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
