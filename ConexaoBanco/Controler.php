@@ -10,7 +10,7 @@
     $estado = $_POST['estado'];
     $cidade = $_POST['cidade'];
     $bairro = $_POST['bairro'];
-    $numero = $_POST['num-casa'];
+    $numero = $_POST['numcasa'];
 	$senha = md5($_POST['senha']);
 	
 	$sql = "INSERT INTO cadastro (id, nome, cnpj, email, telefone, cep, estado, cidade, bairro, numcasa, senha) 
@@ -31,5 +31,5 @@
 	
 	$stm->execute();
 
-	header('location:../Cad.php?signup=success');
+	header('location:../index.php?signup=success');
 ?>
