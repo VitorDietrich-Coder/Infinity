@@ -1,8 +1,8 @@
 <?php
   session_start();
   error_reporting(0);
-	include("conexao.php");
-    $nome = preg_replace('/[À-Úà-ú]/','', $_POST['cnpj']);
+	include("conexao.class.php");
+    $cnpj = preg_replace('/[À-Úà-ú]/','', $_POST['cnpj']);
     $senha =  addslashes ($_POST['senha']); 
     $confsenha = md5($senha);
       $sql = "SELECT cnpj, senha FROM user WHERE cnpj= :cnpj and senha= :senha ";

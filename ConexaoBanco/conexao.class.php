@@ -8,7 +8,7 @@ define('CHARSET', 'utf8');
 define('USER', 'root');  
 define('PASSWORD', '');  
 
-class Conexao{
+class conexao{
 
   private static $instance;
 
