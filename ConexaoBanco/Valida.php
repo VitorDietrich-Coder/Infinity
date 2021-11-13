@@ -1,12 +1,12 @@
 <?php
   session_start();
   error_reporting(0);
-	include("conexao.class.php");
+	include("conexao.php");
     $nome = preg_replace('/[À-Úà-ú]/','', $_POST['cnpj']);
     $senha =  addslashes ($_POST['senha']); 
     $confsenha = md5($senha);
       $sql = "SELECT cnpj, senha FROM user WHERE cnpj= :cnpj and senha= :senha ";
-  $stm = Conexao::prepare($sql);
+  $stm = bdinfinity::prepare($sql);
   $stm->bindParam(':cnpj', $cnpj);
   $stm->bindParam(':senha', $confsenha);
 	$stm->execute();

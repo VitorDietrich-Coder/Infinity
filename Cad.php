@@ -13,7 +13,7 @@
     include "footer.php";
     ?>
         <div class="content">
-            <form method="POST" action="php/controller.php" class="conteudo2" type="submit">
+            <form method="POST" action="ConexaoBanco/controler.php" class="conteudo2" type="submit">
             <h1 class="TEXT">CADASTRE-SE</h1>
             <br>
                 <h1 class="NOME-INPUT">NOME DA EMPRESA</h1> 
@@ -43,13 +43,23 @@
                 <input type="number" id="numcasa" class="NUMERO"></input>  
 
                 <h1 class="NOME-INPUT">SENHA</h1>  
-                <input type="senha" id="senha" class="SENHA"></input>  
+                <input type="password" id="senha" class="SENHA"></input>  
 
                 <h1 class="NOME-INPUT">CONFIRMAR SENHA</h1>  
-                <input type="senha" id="confsenha"class="CONFSENHA"></input> <br>
+                <input type="password" id="confsenha"class="CONFSENHA"></input> <br>
 
                 <button type="submit" id="butao" class="boton">BUTOON</button>
+                
 </form>
+<script>
+				function validaSenha(input) {
+					if (input.value != document.getElementById('senha').value) {
+						input.setCustomValidity('As senhas sao diferentes');
+					} else {
+						input.setCustomValidity('');
+					}
+				}
+			</script>
         </div>
         <?php
             include "Rodape.php";
