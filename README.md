@@ -10,7 +10,7 @@
 </p>  
  
 ![GitHub repo size](https://img.shields.io/github/repo-size/VitorDietrich-Coder/Infinity?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/VitorDietrich-Coder/Calculadora-JS-HTML?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/VitorDietrich-Coder/Infinity?style=for-the-badge)
 
 First steps with java
 
