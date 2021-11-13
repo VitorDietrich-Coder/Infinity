@@ -8,8 +8,8 @@
   <a href="https://www.instagram.com/vitor_dietrich/" alt="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=LINK-DO-SEU-INSTAGRAM"/></a>
 </p>  
-
-![GitHub repo size](https://img.shields.io/github/repo-size/VitorDietrich-Coder/Calculadora-JS-HTML?style=for-the-badge)
+ 
+![GitHub repo size](https://img.shields.io/github/repo-size/VitorDietrich-Coder/Infinity?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/VitorDietrich-Coder/Calculadora-JS-HTML?style=for-the-badge)
 
 First steps with java
