@@ -3,7 +3,7 @@
  * Constantes de parâmetros para configuração da conexão  
  */  
 define('HOST', 'localhost');  
-define('DBNAME', 'conexao');  
+define('DBNAME', 'bdinfinity');  
 define('CHARSET', 'utf8');  
 define('USER', 'root');  
 define('PASSWORD', '');  
