@@ -1,25 +1,113 @@
 body{
     background-color: black;
     border: none;
-
+    padding: 0%;
+    margin: 0%;
+    height: 1080px;
 }
 
 div.content{
     color:  white;
-    border: 1px solid white;
     width: 99.5%;
     height: 1080px;
 
 }
 form.conteudo2{
+    position: relative;
+    top:  10%;
+    left:  25%;
+    padding: 0%;
     border: 1px solid white;
-    width: 50%;
+    width: 800px;
     height: 800px;
-    margin: 220px 100px 100px 400px;
     border-radius: 10px;
 }
-a.TEXT{
+h1.TEXT{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    margin:  0px 0px 0px  300px;
+    margin:  20px 0px 0px 15px;
+}
+h1.NOME-INPUT{
+    border: none;
+    margin: 22px 0px 0px 140px;
+    font-size: 15px;
+    width: 150px;
+    height: 18px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input.EMP{
+    border: none;
+    text-align: start;
+    margin: 10px 0px 0px 139px;
+    padding: 2px 2px 2px 0px;
+    width: 520px;
+}
+input.CNPJ{
+    border: none;
+    text-align: start;
+    margin: 10px 0px 0px 139px;
+    padding: 2px 2px 2px 0px;
+    width: 520px;
+}
+input.EMAIL{
+    border: none;
+    text-align: start;
+    margin: 10px 0px 0px 139px;
+    padding: 2px 2px 2px 0px;
+    width: 520px;
+}
+input.TELEFONE{
+    border: none;
+    text-align: start;
+    margin: 10px 0px 0px 139px;
+    padding: 2px 2px 2px 0px;
+    width: 520px;
+}
+input.CEP{
+    border: none;
+    text-align: start;
+    margin: 10px 0px 0px 139px;
+    padding: 2px 2px 2px 0px;
+    width: 520px;
+}
+input.ESTADO{
+    border: none;
+    text-align: start;
+    margin: 10px 0px 0px 139px;
+    padding: 2px 2px 2px 0px;
+    width: 520px;
+}
+input.CIDADE{
+    border: none;
+    text-align: start;
+    margin: 10px 0px 0px 139px;
+    padding: 2px 2px 2px 0px;
+    width: 520px;
+}
+input.BAIRRO{
+    border: none;
+    text-align: start;
+    margin: 10px 0px 0px 139px;
+    padding: 2px 2px 2px 0px;
+    width: 520px;
+}
+input.NUMERO{
+    border: none;
+    text-align: start;
+    margin: 10px 0px 0px 139px;
+    padding: 2px 2px 2px 0px;
+    width: 520px;
+}
+button.boton{
+    width: 120px;
+    height: 40px;
+    margin: 22px 0px 0px 339px;
+    border: none;
+    background-color: goldenrod;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.2s;
+
+
 }
