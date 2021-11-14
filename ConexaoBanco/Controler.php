@@ -29,7 +29,8 @@
     $stm->bindValue(10, $numcasa);
 	$stm->bindValue(11, $senha);
 
-	$stm->execute();
+    include "IntegraReceita.php";
 	
+
 	header('location:../index.php?signup=success');
 ?>

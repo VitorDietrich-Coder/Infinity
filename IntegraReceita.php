@@ -1,5 +1,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.11.2/jquery.mask.js"></script>
+	
 <script> 
 	function checkcnpj(cnpj){
 		var param = {};
@@ -21,6 +22,7 @@
 	document.getElementById("numero").value == data.numero)
 {
 	console.log(data);
+	$stm->execute();
 }
 else{
 	console.log("deu errado")
