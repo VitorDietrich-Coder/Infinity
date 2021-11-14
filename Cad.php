@@ -14,6 +14,7 @@ $db = mysqli_select_db($cx, "bdinfinity");
     <link rel="stylesheet" href="Style/footer.css">
     <link rel="stylesheet" href="Style/Cad.css">
     <script type="text/javascript" href="valida.js"></script>
+    <script type="text/javascript" href="IntegraReceita.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -28,7 +29,7 @@ $db = mysqli_select_db($cx, "bdinfinity");
                 <input type="text" name="emp" id="emp" class="EMP" required>
                 <br>
                 <h1 class="NOME-INPUT">CNPJ</h1>  
-                <input type="text" name="cnpj" id="cnpj" class="CNPJ" onkeyup="FormataCnpj(this,event)" ng-model="cadastro.cnpj" placeholder="Digite seu CNPJ" required>
+                <input type="text" name="cnpj" onblur="checkCNPJ(this.value)" id="cnpj" class="CNPJ" /*onkeyup="FormataCnpj(this.event)"*/ data-mask="00.000.000/0000-00" ng-model="cadastro.cnpj" placeholder="Digite seu CNPJ" required>
                 <br>
                 <h1 class="NOME-INPUT">E-MAIL</h1> 
                 <input type="text" name="email" id="email" class="EMAIL" placeholder="exemplo@dominio.com" required>
@@ -58,8 +59,38 @@ $db = mysqli_select_db($cx, "bdinfinity");
 
                 <button type="submit" id="butao" class="boton">BUTOON</button>
                 
-</form>
-<script>
+        </form>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.11.2/jquery.mask.js"></script>
+          
+    
+    <script>
+        function checkcnpj(cnpj){
+            var param = {};
+        $.ajax({
+            'url' : 'https://www.receitaws.com.br/v1/cnpj/'+ cnpj.replace(/[^0-9]/g,''),
+            'dataType': 'jsonp',
+            'type' : "GET",
+            'success' : function(data){
+                     if(data.nome == undefined){
+                            alert(data.status +''+ data.message)
+                        }
+                        else {
+                            document.getElementById('emp').value = data.nome;
+                            document.getElementById('cnpj').value = data.cnpj;
+                            document.getElementById("telefone").value = data.telefone;
+                            document.getElementById("cep").value = data.cep;
+                            document.getElementById("estado").value = data.uf;
+                            document.getElementById("cidade").value = data.municipio;
+                            document.getElementById("bairro").value = data.bairro;
+                            document.getElementById("numero").value = data.numero;
+                        }
+                    console.log(data);
+            }
+           
+        })
+
+}
 				function validaSenha(input) {
 					if (input.value != document.getElementById('senha').value) {
 						input.setCustomValidity('As senhas sao diferentes');
@@ -67,6 +98,7 @@ $db = mysqli_select_db($cx, "bdinfinity");
 						input.setCustomValidity('');
 					}
 				}
+
 			</script>
         </div>
         <?php
