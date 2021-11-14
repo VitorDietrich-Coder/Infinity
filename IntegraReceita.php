@@ -20,7 +20,6 @@
 	document.getElementById("bairro").value == data.bairro &&
 	document.getElementById("numero").value == data.numero)
 {
-	$stm->execute();
 	console.log(data);
 }
 else{
