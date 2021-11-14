@@ -14,25 +14,24 @@ $db = mysqli_select_db($cx, "bdinfinity");
     <link rel="stylesheet" href="Style/footer.css">
     <link rel="stylesheet" href="Style/Cad.css">
     <script type="text/javascript" href="valida.js"></script>
-    <script type="text/javascript" href="IntegraReceita.js"></script>
-    <?php
-    include "IntegraReceita.php";
-    ?>
+    <script type="text/php" href="IntegraReceita.php"></script>
     <title>Document</title>
 </head>
 <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.11.2/jquery.mask.js"></script>
     <?php
     include "footer.php";
     ?>
         <div class="content">
-            <form method="POST" action="ConexaoBanco/controler.php" class="conteudo2" >
+            <form method="POST" action="ConexaoBanco/controler.php"  class="conteudo2" >
             <h1 class="TEXT">CADASTRE-SE</h1>
             <br>
                 <h1 class="NOME-INPUT">NOME DA EMPRESA</h1> 
                 <input type="text" name="emp" id="emp" class="EMP" required>
                 <br>
                 <h1 class="NOME-INPUT">CNPJ</h1>  
-                <input type="text" name="cnpj" onblur="checkCNPJ(this.value)" id="cnpj" class="CNPJ" data-mask="00.000.000/0000-00" ng-model="cadastro.cnpj" placeholder="Digite seu CNPJ" required>
+                <input type="text" name="cnpj" onblur="checkcnpj(this.value)" id="cnpj" class="CNPJ" data-mask="00.000.000/0000-00" ng-model="cadastro.cnpj" placeholder="Digite seu CNPJ" required>
                 <br>
                 <h1 class="NOME-INPUT">E-MAIL</h1> 
                 <input type="text" name="email" id="email" class="EMAIL" placeholder="exemplo@dominio.com" required>
@@ -59,14 +58,11 @@ $db = mysqli_select_db($cx, "bdinfinity");
 
                 <h1 class="NOME-INPUT">CONFIRMAR SENHA</h1>  
                 <input type="password" name="confsenha" id="confsenha"class="CONFSENHA" required> <br>
-
-                <button type="submit" id="butao" class="boton">BUTOON</button>
+                <button type="submit" id="butao" onclick="checkcnpj(cnpj)" class="boton">BUTOON</button>
                 
         </form>
-     
-          
-    <script> 
-   
+        </div>
+        <script> 
 				function validaSenha(input) {
 					if (input.value != document.getElementById('senha').value) {
 						input.setCustomValidity('As senhas sao diferentes');
@@ -74,12 +70,11 @@ $db = mysqli_select_db($cx, "bdinfinity");
 						input.setCustomValidity('');
 					}
 				}
-
-			</script>
-        </div>
+    </script>
         <?php
             include "Rodape.php";
            ?>
+    </body>
+    </html>
+    
 
-</body>
-</html>

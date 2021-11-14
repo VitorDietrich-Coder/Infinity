@@ -13,16 +13,15 @@
 						alert(data.status +''+ data.message)
 					}
 					else if (document.getElementById('emp').value == data.nome &&
-	document.getElementById('cnpj').value == data.cnpj  && 
-	document.getElementById("telefone").value = data.telefone  &&
-	document.getElementById("cep").value == data.cep 
-	document.getElementById("estado").value == data.uf &&
-	document.getElementById("cidade").value == data.municipio &&
-	document.getElementById("bairro").value == data.bairro &&
-	document.getElementById("numero").value == data.numero)
+					document.getElementById('cnpj').value == data.cnpj  && 
+					document.getElementById("telefone").value = data.telefone  &&
+					document.getElementById("cep").value == data.cep 
+					document.getElementById("estado").value == data.uf &&
+					document.getElementById("cidade").value == data.municipio &&
+					document.getElementById("bairro").value == data.bairro &&
+					document.getElementById("numero").value == data.numero)
 {
 	console.log(data);
-	$stm->execute();
 }
 else{
 	console.log("deu errado")
