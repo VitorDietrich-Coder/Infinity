@@ -28,8 +28,8 @@
     $stm->bindValue(9, $bairro);
     $stm->bindValue(10, $numcasa);
 	$stm->bindValue(11, $senha);
-	
-	$stm->execute();
 
+	$stm->execute();
+	
 	header('location:../index.php?signup=success');
 ?>

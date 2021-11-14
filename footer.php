@@ -4,10 +4,9 @@
 <link rel="stylesheet" href="style/footer.css">
 
  <footer class="superior">
-            <img class="escrita" src="src/Infinity.png"></img>
+            <img class="escrita" src="src/Infinity.png" href="index.php"></span>
             <img class="carrinho" src="src/carrinho-de-compras.png"></img>
-            <img class="LOGIN" src="src/LOGIN.png"></img>
-         
+            <img class="LOGIN" src="src/LOGIN.png" ></img>
             <a class="login" type="button" href="Login.php"><strong>Faça login</strong></a>
             <a class="ou">ou</a>
             <a class="cadastrar" type="button" href="Cad.php"> <strong> Cadastre-se </strong> </a>
