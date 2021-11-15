@@ -1,6 +1,3 @@
-
-
-
 <link rel="stylesheet" href="style/footer.css">
 
  <footer class="superior">
