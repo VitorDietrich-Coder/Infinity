@@ -14,7 +14,9 @@ $db = mysqli_select_db($cx, "bdinfinity");
     <link rel="stylesheet" href="Style/footer.css">
     <link rel="stylesheet" href="Style/Cad.css">
     <script type="text/javascript" href="valida.js"></script>
-    <script type="text/php" href="IntegraReceita.php"></script>
+    <script src="js/jquery-1.2.6.pack.js" type="text/javascript"></script>
+    <script src="js/jquery.maskedinput-1.1.4.pack.js" type="text/javascript"  /></script>
+    
     <title>Document</title>
 </head>
 <body>
@@ -32,7 +34,7 @@ $db = mysqli_select_db($cx, "bdinfinity");
                 <input type="text" name="emp" id="emp" class="EMP" required>
                 <br>
                 <h1 class="NOME-INPUT">CNPJ</h1>  
-                <input type="text" name="cnpj" onblur="checkcnpj(this.value)" id="cnpj" class="CNPJ" data-mask="00.000.000/0000-00" ng-model="cadastro.cnpj" placeholder="Digite seu CNPJ" required>
+                <input type="text" name="cnpj" onblur="checkcnpj(this.value)" id="cnpj" class="CNPJ"  placeholder="Digite seu CNPJ" required>
                 <br>
                 <h1 class="NOME-INPUT">E-MAIL</h1> 
                 <input type="text" name="email" id="email" class="EMAIL" placeholder="exemplo@dominio.com" required>
@@ -61,7 +63,7 @@ $db = mysqli_select_db($cx, "bdinfinity");
                 <h1 class="confsenha">CONFIRMAR SENHA</h1>  
                 <input type="password" name="confsenha" id="confsenha"class="CONFSENHA" required> <br>
 
-                <button type="submit" id="butao" onclick="checkcnpj(cnpj)" class="boton">BUTOON</button>
+                <button type="submit" id="butao"   class="boton">BUTOON</button>
                 </form>
         </form>
         </div>
@@ -72,7 +74,7 @@ $db = mysqli_select_db($cx, "bdinfinity");
 
     <!-- Adicionando Javascript -->
     <script>
-
+  
         $(document).ready(function() {
 
             function limpa_formulário_cep() {
@@ -135,9 +137,7 @@ $db = mysqli_select_db($cx, "bdinfinity");
                 }
             });
         });
-
     </script>
-   
         <?php
             include "Rodape.php";
            ?>
