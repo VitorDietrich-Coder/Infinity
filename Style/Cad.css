@@ -34,7 +34,7 @@ h1.numero{
     position:relative;
     align-items: center;
     border: none;
-    bottom: 50px;
+    bottom: 53px;
     left: 70px;
 }
 h1.NOME-INPUT{
@@ -67,7 +67,7 @@ h1.CEP{
     align-items: center;
     border: none;
     left: 52px;
-    bottom: 10px;
+    bottom: 14px;
     margin: 0px 0px 0px 0px;
 }
 h1.ESTADO{
@@ -90,7 +90,7 @@ h1.CIDADE{
     align-items: center;
     border: none;
     left: 65px;
-    bottom: 18px;
+    bottom: 23px;
     margin: 0px 0px 0px 0px;
 }
 
@@ -133,89 +133,108 @@ input.EMP{
     border: none;
     text-align: start;
     margin: 10px 0px 0px 139px;
-    padding: 2px 2px 2px 0px;
+    padding: 2px 2px 2px 2px;
     width: 520px;
+    height: 20px;
+    outline: none;
 }
 input.CNPJ{
     border: none;
     text-align: start;
     margin: 10px 0px 0px 139px;
-    padding: 2px 2px 2px 0px;
+    padding: 2px 2px 2px 2px;
     width: 520px;
+    height: 20px;
+    outline: none;
 }
 input.EMAIL{
     border: none;
     text-align: start;
     margin: 10px 0px 0px 139px;
-    padding: 2px 2px 2px 0px;
+    padding: 2px 2px 2px 2px;
     width: 520px;
+    height: 20px;
+    outline: none;
 }
 input.TELEFONE{
     position:relative;
     align-items: center;
     border: none;
-    text-align: center;
+    text-align: start;
     top: 30px;
     margin: 0px 0px 0px 139px;
-    padding: 2px 2px 2px 0px;
+    padding: 2px 2px 2px 2px;
     width: 220px;
+    height: 20px;
+    outline: none;
 }
  
 input.CEP{
     position:relative;
     align-items: center;
     border: none;
-    text-align: center;
-    bottom: 9px;
+    text-align: start;
+    bottom: 14px;
     margin: 0px 0px 0px 440px;
-    padding: 2px 2px 2px 0px;
+    padding: 2px 2px 2px 2px;
     width: 220px;
+    height: 20px;
+    outline: none;
 }
 input.ESTADO{
     position:relative;
     align-items: center;
     border: none;
-    text-align: center;
+    text-align: start;
     top: 22px;
     margin: 0px 0px 0px 139px;
-    padding: 2px 2px 2px 0px;
+    padding: 2px 2px 2px 2px;
     width: 220px;
+    height: 20px;
+    outline: none;
 }
 input.CIDADE{
     position:relative;
     align-items: center;
     border: none;
-    text-align: center;
-    bottom: 17px;
+    text-align: start;
+    bottom: 20px;
     margin: 0px 0px 0px 440px;
-    padding: 2px 2px 2px 0px;
+    padding: 2px 2px 2px 2px;
     width: 220px;
+    height: 20px;
+    outline: none;
 }
 input.BAIRRO{
     border: none;
     text-align: start;
     margin: 10px 0px 0px 139px;
-    padding: 2px 2px 2px 0px;
+    padding: 2px 2px 2px 2px;
     width: 220px;
+    height: 20px;
+    outline: none;
 }
 input.NUMERO{
     position:relative;
     align-items: center;
     border: none;
-    text-align: center;
-    bottom: 57px;
+    text-align: start;
+    bottom: 62px;
     margin: 0px 0px 0px 440px;
-    padding: 2px 2px 2px 0px;
+    padding: 2px 2px 2px 2px;
     width: 220px;
+    height: 20px;
 }
 input.SENHA{
     position:relative;
     bottom: 40px;
     border: none;
     text-align: start;
+    height: 20px;
     margin:  10px 0px 0px 139px;
-    padding: 2px 2px 2px 0px;
+    padding: 2px 2px 2px 2px;
     width: 520px;   
+    outline: none;
 
 }
 input.CONFSENHA{
@@ -224,9 +243,13 @@ input.CONFSENHA{
     border: none;
     text-align: start;
     margin:  10px 0px 0px 139px;
-    padding: 2px 2px 2px 0px;
+    padding: 2px 2px 2px 2px;
     width: 520px;   
+    border-style: none;
+    height: 20px;
+    outline: none;
 }
+ 
 button.boton{
     width: 120px;
     height: 40px;
