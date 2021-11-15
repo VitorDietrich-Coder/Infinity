@@ -1,9 +1,4 @@
-<?php
-session_start();
 
-$cx = mysqli_connect("localhost", "root", "");
-$db = mysqli_select_db($cx, "bdinfinity");
-?>
 
 <!DOCTYPE html>
 <html lang="en">
