@@ -31,37 +31,37 @@ $db = mysqli_select_db($cx, "bdinfinity");
             <h1 class="TEXT">CADASTRE-SE</h1>
             <br>
                 <h1 class="NOME-INPUT">NOME DA EMPRESA</h1> 
-                <input type="text" name="emp" id="emp" class="EMP" required>
+                <input type="text" name="emp" id="emp" class="EMP" placeholder="DIGITE O NOME DE SUA EMPRESA..." required>
                 <br>
                 <h1 class="NOME-INPUT">CNPJ</h1>  
-                <input type="text" name="cnpj" onblur="checkcnpj(this.value)" id="cnpj" class="CNPJ"  placeholder="Digite seu CNPJ" required>
+                <input type="text" name="cnpj" onblur="checkcnpj(this.value)" id="cnpj" class="CNPJ"  placeholder="DIGITE SEU CNPJ..." required>
                 <br>
                 <h1 class="NOME-INPUT">E-MAIL</h1> 
                 <input type="text" name="email" id="email" class="EMAIL" placeholder="exemplo@dominio.com" required>
                 <br>
                 <h1 class="TELEFONE">TELEFONE</h1>
-                <input type="text" name="telefone" id="telefone" class="TELEFONE" required>
+                <input type="text" name="telefone" id="telefone" class="TELEFONE"  placeholder="DIGITE SEU TELEFONE..." required>
                 <br>
                 <h1 class="CEP">CEP</h1> 
-                <input type="text" name="cep" id="cep" class="CEP" required>
+                <input type="text" name="cep" id="cep" class="CEP" placeholder="DIGITE SEU CEP..." required>
                 <br>
                 <h1 class="ESTADO">ESTADO</h1> 
-                <input type="text" name="estado"id="estado" class="ESTADO" required>
+                <input type="text" name="estado"id="estado" class="ESTADO" placeholder="DIGITE SEU ESTADO..." required>
                 <br>
                 <h1 class="CIDADE">CIDADE</h1> 
-                <input type="text" name="cidade" id="cidade"class="CIDADE" required>
+                <input type="text" name="cidade" id="cidade"class="CIDADE"  placeholder="DIGITE SUA CIDADE..."required>
                 <br>
                 <h1 class="BAIRRO">BAIRRO</h1>
-                <input type="text" name="bairro" id="bairro" class="BAIRRO" required>
+                <input type="text" name="bairro" id="bairro" class="BAIRRO" placeholder="DIGITE SEU BAIRRO..."required>
 
                 <h1 class="numero">NÚMERO</h1>  
-                <input type="number" name="numcasa" id="numcasa" class="NUMERO" required>
+                <input type="number" name="numcasa" id="numcasa" class="NUMERO" placeholder="DIGITE SEU NÚMERO..." required>
 
                 <h1 class="senha">SENHA</h1>  
-                <input type="password" name="senha" id="senha" class="SENHA" required>
+                <input type="password" name="senha" id="senha" class="SENHA" placeholder="DIGITE SUA SENHA..."required>
 
                 <h1 class="confsenha">CONFIRMAR SENHA</h1>  
-                <input type="password" name="confsenha" id="confsenha"class="CONFSENHA" required> <br>
+                <input type="password" name="confsenha" id="confsenha"class="CONFSENHA" placeholder="CONFIRME SUA SENHA..." required> <br>
 
                 <button type="submit" id="butao"   class="boton">BUTOON</button>
                 </form>

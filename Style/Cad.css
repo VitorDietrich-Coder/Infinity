@@ -123,20 +123,24 @@ h1.confsenha{
     text-align: center;
     position:relative;
     align-items: center;
-    border: none;
+    border: none; 
     right: 194px;
     bottom: 12px;
     margin: 0px 0px 0px 0px;
 }
  
 input.EMP{
-    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(41, 40, 0);
     text-align: start;
     margin: 10px 0px 0px 139px;
     padding: 2px 2px 2px 2px;
     width: 520px;
     height: 20px;
     outline: none;
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 input.CNPJ{
     border: none;
