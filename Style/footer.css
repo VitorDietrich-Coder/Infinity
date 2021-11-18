@@ -190,5 +190,14 @@ body{
         justify-content: center;
         list-style-type: none;
         align-items: center;
-    
+    }
+    a.nome-carrinho{
+        position: absolute;
+        top: 50%;
+        left: 87%;
+        font-size: 12px;
+        width: 10%;
+        border: none;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }

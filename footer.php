@@ -5,6 +5,7 @@
  <footer class="superior">
             <img class="escrita" src="src/Infinity.png" href="index.php"></span>
             <img class="carrinho" src="src/carrinho-de-compras.png"></img>
+            <a class="nome-carrinho" href="carrinho.php"> <strong> CARRINHO DE COMPRAS </strong> </a>
             <img class="LOGIN" src="src/LOGIN.png" ></img>
             <a class="login" type="button" href="Login.php"><strong>Faça login</strong></a>
             <a class="ou">ou</a>
