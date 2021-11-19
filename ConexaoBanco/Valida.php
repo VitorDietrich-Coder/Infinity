@@ -4,11 +4,11 @@
 	include("conexao.class.php");
     $cnpj = preg_replace('/[À-Úà-ú]/','', $_POST['cnpj']);
     $senha =  addslashes ($_POST['senha']); 
-    $confsenha = md5($senha);
-      $sql = "SELECT cnpj, senha FROM user WHERE cnpj= :cnpj and senha= :senha ";
+    $senhash = md5($senha);
+      $sql = "SELECT cnpj, senha FROM cad WHERE cnpj= :cnpj and senha= :senha ";
   $stm = bdinfinity::prepare($sql);
   $stm->bindParam(':cnpj', $cnpj);
-  $stm->bindParam(':senha', $confsenha);
+  $stm->bindParam(':senha', $senhash);
 	$stm->execute();
   $mensagem = '
   <div id="mensagem">

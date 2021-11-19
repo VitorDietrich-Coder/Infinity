@@ -32,5 +32,5 @@
 
     $stm->execute();
 
-	header('location:../index.php?signup=success');
+	header('location:../login.php?signup=success');
 ?>
