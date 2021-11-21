@@ -15,8 +15,8 @@
     ?>
 <div class="conteudo">   
                 <div class="conteudo2">
-                    <li class="barra-produto"> 
-                        <a class="produtos">PROMOÇÕES</a>  </li>   
+                  
+                        <a class="produtos">PROMOÇÕES</a>      
                 <section class="container1 stretch">
                     <div class="item1"><img class="carvao" src="src/carvao-solto.png"></img> <a class="carvao texto">CARVÃO TEXTO</a></div>
                     <div class="item1"><img class="carvao" src="src/carvao-solto.png"></img> <a class="carvao texto">CARVÃO TEXTO</a></div>
