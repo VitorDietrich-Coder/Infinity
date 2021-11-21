@@ -39,11 +39,10 @@ body{
     
     /* Flex Container */
     .container1 {
-        max-width: 1050px;
-        min-height: 300px;
+        max-width: 100%;
+        min-height: 30%;
         display: flex;
         border: none;
-        left: 40px;
         right: 0px;
         background-color: rgb(14, 14, 14);
         list-style-type: none;
