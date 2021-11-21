@@ -5,16 +5,14 @@
  <footer class="superior">
     <div class="foot">  
             <img class="escrita" src="src/Infinity.png" href="index.php"></img>
-            <input type="text" class="pesquisa"></input>
+            <input type="text" class="pesquisa" placeholder="Pesquise...."></input>
+            <a class="login" type="button" href="Login.php">Faça login ou Cadastre-se</a>
             <img class="LOGIN" src="src/LOGIN.png"></img>
-           
-	          <img class="carrinho" src="src/carrinho-de-compras.png"> <a class="nome-carrinho" href="carrinho.php"> <strong> CARRINHO DE COMPRAS </strong> </a></img>
-            <br>
-            
-          
+            <a class="nome-carrinho" href="carrinho.php"> CARRINHO DE COMPRAS  </a>
+            <img class="carrinho" src="src/carrinho-de-compras.png"> </img>
             </div>
             <section class="container flex">
-               <div class="item"><a type="button" href="index.php" class="button-1">HOME</a></div>
+                <div class="item"><a type="button" href="index.php" class="button-1">HOME</a></div>
                 <div class="item"><a type="button" href="Produtos.php" class="button-2">PRODUTOS</a></div>
                 <div class="item"><a type="button" href="Sobre.php" class="button-3">SOBRE NÓS</a></div>
                 <div class="item"><a type="button" href="Localização.php" class="button-4">LOCALIZAÇÃO</a></div>

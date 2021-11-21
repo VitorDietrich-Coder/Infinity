@@ -15,41 +15,27 @@ body{
         width: 8%;
         border-radius: 50%; 
         box-shadow: 0.1em 0em 1em 0.2em  rgb(37, 37, 37); 
-        margin: 2% 0% 2% 4%;
+        margin: 0% 0% 2% 4%;
     }
     img.carrinho{
         margin-bottom: 0;     
-        width: 3.2%;
-        margin: 0% 0% 0% 10%;
+        width: 5%;
+        margin: 0% 5% 2% 0%;
     
     }
-    a.cadastrar{
-        margin: 0%; 
-        width: 8%;
-        height: 3%;
-        color: black;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-decoration: none;
-        
-    }
     a.login{
-        width: 10%;
+        width: 9%;
         height: 3%;
         color: rgb(255, 255, 255);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-decoration: none;
-    }
-    a.ou{
-        width: 10%;
-        height: 3%;
-        color: black;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0% 0% 2% 10%;
     }
     img.LOGIN{
         border-radius: 60%;
         box-shadow: 0.1em 0.1em 1em 0.1em  rgb(37, 37, 37); 
-        margin: 0% 0% 0% 10%;
-        width: 4.5%;
+        margin: 0% 0% 2% 0%;
+        width: 6%;
         transition: 0.2s;
         
     }
@@ -74,12 +60,12 @@ body{
         border: none;
         background-color: black;
         outline: none;
-        margin: 0 0 0 5%;
+        margin: 0 0 3% 5%;
         border-radius: 8px 0px;
         padding: 8px 12px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: white;
-        width: 40%;
+        width: 60%;
         height: 6%;
         box-shadow: 0.1em 0em 1em 0.2em  rgb(37, 37, 37);    
     }
@@ -99,7 +85,7 @@ body{
         background-color: rgb(0, 0, 0);
         transition: 0.2s;
         text-align: center;
-        padding: 1.9% 23.4%;
+        padding: 1.9% 34.4%;
         color: white;
         text-decoration: none;
     }
@@ -109,7 +95,7 @@ body{
     a.button-2{
         background-color: rgb(0, 0, 0);
         transition: 0.2s;
-        padding: 1.9% 18.8%;
+        padding: 1.9% 22.8%;
         text-decoration: none;
         color: white;
     
@@ -168,10 +154,11 @@ body{
         align-items: center;
     }
     a.nome-carrinho{
-        margin: 5% 0% 0% 0%;
-        font-size: 12px;
-        width: 10%;
+        text-decoration: none;
+        margin: 0% 0% 2% 2%;
+        font-size: 14px;
+        width: 8%;
         border: none;
-        color: black;
+        color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
