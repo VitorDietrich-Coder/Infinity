@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="style/footer.css">
 
  <footer class="superior">
+    <div class="foot">  
             <img class="escrita" src="src/Infinity.png" href="index.php"></span>
             <img class="carrinho" src="src/carrinho-de-compras.png"></img>
             <a class="nome-carrinho" href="carrinho.php"> <strong> CARRINHO DE COMPRAS </strong> </a>
@@ -19,4 +20,5 @@
                 <div class="item"><a type="button" href="Localização.php" class="button-4">LOCALIZAÇÃO</a></div>
                 <div class="item"><a type="button" href="Promo.php" class="button-5">PROMOÇÕES</a></div>
             </section>
+            </div>
          </footer>
