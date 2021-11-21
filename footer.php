@@ -6,7 +6,7 @@
     <div class="foot">  
             <img class="escrita" src="src/Infinity.png" href="index.php"></img>
             <input type="text" class="pesquisa" placeholder="Pesquise...."></input>
-            <a class="login" type="button" href="Login.php">Faça login ou Cadastre-se</a>
+            <a class="login" ><a type="button" href="Login.php">Faça login</a> ou <a href="Cad.php  ">Cadastre-se</a></a>
             <img class="LOGIN" src="src/LOGIN.png"></img>
             <a class="nome-carrinho" href="carrinho.php"> CARRINHO DE COMPRAS  </a>
             <img class="carrinho" src="src/carrinho-de-compras.png"> </img>
