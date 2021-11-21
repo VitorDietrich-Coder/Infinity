@@ -10,16 +10,15 @@ body{
         background-color: black;
     }
     div.conteudo{
+        z-index: -1;
+        position: relative;
         background-color: black;
         padding: 0% 0% 0% 0%;
-        height: 100%;
         width: 99,5%;
-        height: 1120px;
- 
+        height: 1078px;
     
     }
-    
-    .stretch {
+        .stretch {
         align-items: stretch;
     }
     
@@ -43,10 +42,9 @@ body{
     .container1 {
         max-width: 1050px;
         min-height: 300px;
-        top: 30px;
+
         display: flex;
         border: none;
-        position: relative;
         left: 40px;
         right: 0px;
         background-color: rgb(14, 14, 14);
@@ -101,30 +99,23 @@ body{
     
     }
     li.barra-produto{
-        width: 96%;
-        height: 21px;
+        width: 92.9%;
+        height: 1%;
+        margin: 0 0 0 1%;
         background-color: white;
-        padding: 2% 2% 3% 2%;
+        padding: 2% 2% 4% 2%;
         list-style-type: none;
+        border-radius: 3px;
     
     }
     div.conteudo2{
         float: left;
         margin: 2% 0% 0% 13%;
-        width: 74%;
-        height: 1060px;
+        width: 70%;
+        padding: 2% 2% 0% 3%;
+        height: 1000px;
         background-color: rgb(14, 14, 14);
-        left: 290px;
         list-style-type: none;
-    }
-    li.rodapé{
-        width: 100%;
-        background-color: rgb(54, 54, 54);
-        position: relative;
-        top: 1200px;
-        height: 200px;
-        list-style-type: none;
-        box-shadow: 0.1em 0.8em 0.1em 1em rgb(97, 97, 97);
     }
     img.carvao{
         width: 200px;
