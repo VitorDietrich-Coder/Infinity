@@ -16,7 +16,7 @@
 <div class="conteudo">   
                 <div class="conteudo2">
                   
-                        <a class="produtos">PROMOÇÕES</a>      
+                <a class="produtos">PROMOÇÕES</a>      
                 <section class="container1 stretch">
                     <div class="item1"><img class="carvao" src="src/carvao-solto.png"></img> <a class="carvao texto">CARVÃO TEXTO</a></div>
                     <div class="item1"><img class="carvao" src="src/carvao-solto.png"></img> <a class="carvao texto">CARVÃO TEXTO</a></div>
