@@ -1,4 +1,21 @@
+<?php
+/*
+session_start();
+error_reporting(0);
 
+if (!isset($_SESSION['cnpj'])) {
+    header("Location: index.php");
+    exit;
+  }
+  else{
+    if (!isset($_SESSION['senha'])) {
+      header("Location: index.php");
+      exit;
+    }
+  }
+
+*/
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

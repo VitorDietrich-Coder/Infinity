@@ -1,3 +1,7 @@
+<?php
+ include_once 'ConexaoBanco\Conexao.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,18 +17,17 @@
     ?>
 <div class="contento">   
     
-<form method="POST" action="php/Valida.php">
+<form method="POST" action="Validalogin.php">
     <div id="modal" class="modal">
-     <form class="modal-content" action="/action_page.php" method="post">
         <div class="container-modal">
             <label for="nameUser"><b>Nome</b></label>
-            <input type="text" id="cnpj" placeholder="Insira seu nome de usuário" name="cnpj" required>
+            <input type="text" id="nome" placeholder="Insira seu nome de usuário" name="nome">
             <br><br>
             <label for="pswUser"><b>Senha</b></label>
-            <input type="password" id="senha" placeholder="Insira sua senha" name="senha" required>
+            <input type="password" id="senha" placeholder="Insira sua senha" name="senha">
             <br><br>
             <button type="submit">Login</button><br><br>
-            <input type="button" onclick="document.getElementById('modal').style.display='none'" class="cancelbtn" value="Cancelar">
+
         </div>
      </div>  
         <br>
