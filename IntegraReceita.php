@@ -26,5 +26,7 @@
 else{
 	console.log("deu errado")
 }
+		}
+})
 }
-</script>
+</script> 

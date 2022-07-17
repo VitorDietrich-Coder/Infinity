@@ -1,16 +1,7 @@
-<?php 
-/*  
- * Constantes de parâmetros para configuração da conexão  
- */  
-$host  = "localhost";
-$user =  "root";
-$pass = "";
-$dbname = "bdinfinity";
-$port = "3306";
+<?php  
+define('HOST', '127.0.0.1');
+define('USUARIO', 'root');
+define('SENHA', '');
+define('DB', 'bdinfinity');
 
-try{
-$conn = new PDO("mysql:host=$host;port=$port;dbname=". $dbname, $user, $pass);
-echo "Conexão com banco de dados realizado com sucesso!";
-}catch(PDOException $err){
-  echo "Erro: Conexão com banco de dados não realizado com sucesso. Erro gerado " . $err->getMessage();
-}
+$conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível conectar');

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Style/Cad.css">
     <script type="text/javascript" href="valida.js"></script>
     <script src="js/jquery-1.2.6.pack.js" type="text/javascript"></script>
-    <script src="js/jquery.maskedinput-1.1.4.pack.js" type="text/javascript"  /></script>
+    <script src="js/jquery.maskedinput-1.1.4.pack.js" type="text/javascript"></script>
     
     <title>Document</title>
 </head>
@@ -19,12 +19,12 @@
     include "footer.php";
     ?>
         <div class="content">
-            <form method="POST"  action="ConexaoBanco/controler.php"  class="conteudo2" >
+            <form method="POST"  action="ConexaoBanco/Cadastrar.php"  class="conteudo2" >
                 <form method="get">
             <h1 class="TEXT">CADASTRE-SE</h1>
             <br>
-                <h1 class="NOME-INPUT">NOME DA EMPRESA</h1> 
-                <input type="text" name="emp" id="emp" class="EMP" placeholder="DIGITE O NOME DE SUA EMPRESA..." required>
+                <h1 class="NOME-INPUT">Razão Social</h1> 
+                <input type="text" name="razaoSocial" id="emp" class="EMP" placeholder="DIGITE O NOME DE SUA EMPRESA..." required>
                 <br>
                 <h1 class="NOME-INPUT">CNPJ</h1>  
                 <input type="text" name="cnpj" onblur="checkcnpj(this.value)" id="cnpj" class="CNPJ"  placeholder="DIGITE SEU CNPJ..." required>
